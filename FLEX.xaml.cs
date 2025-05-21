@@ -7,8 +7,8 @@ public partial class FLEX : ContentPage
 		InitializeComponent();
 	}
 
-    private void IrAbsolute(object sender, EventArgs e)
+    private async void IrAbsolute(object sender, EventArgs e)
     {
-
+        await Shell.Current.GoToAsync("///ABSOLUTE");
     }
 }

@@ -21,5 +21,9 @@
         Title="Flex"
         ContentTemplate="{DataTemplate local:FLEX}"
         Route="FLEX" />
-
+    
+    <ShellContent
+        Title="Absolute"
+        ContentTemplate="{DataTemplate local:ABSOLUTE}"
+        Route="ABSOLUTE" />
 </Shell>

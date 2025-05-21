@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GridWR.ABSOLUTE"
+             Title="ABSOLUTE">
+
+    <AbsoluteLayout>
+
+        <ScrollView AbsoluteLayout.LayoutBounds="0,0,1,1"
+                    AbsoluteLayout.LayoutFlags="All">
+            <VerticalStackLayout Padding="20,80,20,80">
+                <Label Text="Welcome to .NET MAUI!"
+                       FontSize="24"
+                       HorizontalOptions="Center" />
+                <Label Text="ESTO ES ABSOLUTE" />
+                <Label Text="Más contenido..." />
+                <Label Text="Más contenido..." />
+                <Label Text="Más contenido..." />
+                <Label Text="Más contenido..." />
+                <Label Text="Más contenido..." />
+                <Label Text="Más contenido..." />
+                <Label Text="Más contenido..." />
+
+                <Label Text="Más contenido..." />
+                <Label Text="Más contenido..." />
+                <Label Text="Más contenido..." />
+                <Label Text="Más contenido..." />
+                <Label Text="Más contenido..." />
+                <Label Text="Más contenido..." />
+
+                <Label Text="Más contenido..." />
+                <Label Text="Más contenido..." />
+                <Label Text="Más contenido..." />
+                <Label Text="Más contenido..." />
+                <Label Text="Más contenido..." />
+                <Label Text="Más contenido..." />
+                <Label Text="Más contenido..." />
+                <Label Text="Más contenido..." />
+                <Label Text="Más contenido..." />
+                <Label Text="Más contenido..." />
+                <Label Text="Más contenido..." />
+                <Label Text="Más contenido..." />
+                <Label Text="Más contenido..." />
+                <Label Text="Scroll para ver el botón fijo." />
+                <BoxView HeightRequest="600" Color="Transparent"/>
+            </VerticalStackLayout>
+        </ScrollView>
+        <Image Source="icono.png"
+               AbsoluteLayout.LayoutBounds="0.5,0,60,60"
+               AbsoluteLayout.LayoutFlags="PositionProportional"
+               HorizontalOptions="Center"
+               VerticalOptions="Start" />
+
+        <Button Text="Ir a Grid"
+                WidthRequest="160"
+                HeightRequest="60"
+                AbsoluteLayout.LayoutBounds="1,1,60,60"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                Clicked="IrAGrid" />
+
+    </AbsoluteLayout>
+</ContentPage>
