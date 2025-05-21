@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="GridWR.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:GridWR"
+    Shell.FlyoutBehavior="Disabled"
+    Title="GridWR">
+
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:GRID}"
+        Route="GRID" />
+
+    <ShellContent
+        Title="Stack"
+        ContentTemplate="{DataTemplate local:STACK}"
+        Route="STACK" />
+
+    <ShellContent
+        Title="Flex"
+        ContentTemplate="{DataTemplate local:FLEX}"
+        Route="FLEX" />
+
+</Shell>
